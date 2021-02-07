@@ -3,4 +3,5 @@ function Horse(name, speed) {
 	this.speed = speed
 }
 
+
 module.exports = Horse;
