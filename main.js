@@ -4,4 +4,4 @@ var Horse = require("./horse");
 
 var mouse = new Mouse(2, "gray", true, true);
 var cat = new Cat("tom");
-console.log(cat.name);
+console.log(mouse.color);
