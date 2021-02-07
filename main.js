@@ -1,13 +1,5 @@
-const arr = [10, 20, 30, 40, 50];
-const [a, , , d, e] = arr;
-console.log(a, d, e);
+var Mouse = require("./mouse");
+var Cat = require("./cat");
 
-const obj = {
-	a: 1,
-	b: 2,
-	c: 3
-}
-
-const {a: x, b: y, c: z} = obj;
-
-console.log(x, y, z);
+var mouse = new Mouse(2, "gray", true, true);
+var cat = new Cat();
