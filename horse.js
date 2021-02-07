@@ -4,3 +4,4 @@ function Horse(name, speed) {
 }
 
 module.exports = Horse;
+console.log('aa');
